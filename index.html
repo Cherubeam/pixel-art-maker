@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=VT323">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Defining grid -->
+    <div class="canvas">
+        <h1>Lab: Pixel Art Maker</h1>
+
+        <h2>Choose Grid Size</h2>
+        <form id="sizePicker">
+            <label>Grid Height:</label>
+            <input type="number" id="input_height" name="height" min="1" value="15">
+            <label>Grid Width:</label>
+            <input type="number" id="input_width" name="width" min="1" value="15">
+            <input type="submit">
+        </form>
+
+        <h2>Pick A Color</h2>
+        <input type="color" id="colorPicker" value="#ff0000"><br>
+        <p class="currentColor"></p>
+
+        <h2>Design Canvas</h2>
+        <table id="pixel_canvas"></table>
+        <script src="designs.js"></script>
+    </div>
+
+    <!-- Defining controll elements -->
+    <div class="canvasControl">
+        <div class="backgroundControl">
+            <button type="button" class="round bright" title="Change Background color to #fff"></button>
+            <button type="button" class="round dark" title="Change Background color to #393939"></button>
+        </div>
+        <div class="gridControl">
+            <button type="button" class="fill" title="Fill the grid with the choosen color">Fill Canvas</button>
+            <button type="reset" class="reset" title="Clear the canvas and remove your masterpiece!">Clear Canvas</button>
+        </div>
+    </div>
+    <footer>
+        <p>Made with <strong>♥</strong> in Berlin.</p>
+    </footer>
+</body>
+</html>

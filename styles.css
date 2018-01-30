@@ -1,0 +1,106 @@
+body {
+    /*background-image: url("https://www.hdwallpapers.in/download/pixels-2560x1440.jpg");
+    background-size: auto 1080px; */
+    background-color: #fff;
+    text-align: center;
+    font-family: 'VT323', monospace, 'Arial', sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    /* font-family: Monoton; */
+    font-size: 80px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+
+}
+
+table {
+    box-shadow: 0px 0px 5px 0px #C9C3C3;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 30px;
+}
+
+td {
+    width: 30px;
+}
+
+input[type=number] {
+    height: 1.5em;
+    width: 6em;
+    text-align: center;
+}
+
+input[type=submit] {
+    font-family: 'VT323', monospace, 'Arial', sans-serif;
+}
+
+button {
+    height: 25px;
+    width: 100px;
+    margin: 0 0.5em;
+    color: #fff;
+    font-size: 0.7em;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'VT323', monospace, 'Arial', sans-serif;
+}
+
+#colorPicker {
+    cursor: pointer;
+}
+
+.canvasControl {
+    margin: 5% 10% 2%;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 0px #C9C3C3;
+    border-radius: 25px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.backgroundControl {
+    border-right: 1px solid rgba(0, 150, 255, 0.4);
+}
+
+.round {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.bright {
+    background-color: #fff;
+    border-color: #000;
+}
+
+.dark {
+    background-color: #393939;
+}
+
+.fill {
+    background-color: #0096ff;
+}
+
+.reset {
+    background-color: #ff2f92;
+}
